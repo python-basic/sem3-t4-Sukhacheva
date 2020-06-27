@@ -45,7 +45,7 @@ def test_func(func,arg):
  
 
 def main():
-  with open('MOCKDATA.json') as f:
+  with open('namedata.json') as f:
     data_dict = json.load(f)
 
   test_func(json_table,data_dict)
